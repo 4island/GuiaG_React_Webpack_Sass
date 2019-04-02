@@ -1,0 +1,48 @@
+.jumbotron_about{
+  background-color: rgba(255,255,255,0.7);
+  margin-top:3%;
+}
+
+.show-grid {
+  margin-bottom: 10%;
+}
+
+p{
+  color:rgb(0, 0, 0);
+  text-align: justify;
+}
+
+.parallax_about {
+  background-image: url('../../public/img/sun-3130638_960_720.jpg');
+  height: 100%; 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax_quienes {
+  background-image: url('../../public/img/bible-2690295_960_720.jpg');
+  height: 100%; 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wtsp-link{
+  margin-left: 40% !important;
+  font-size: 180%;
+}
+
+  
+@media only screen and (max-width: 768px) {
+
+  .jumbotron_about p {
+    font-size: 13px !important;
+    font-weight: 100;
+}
+
+}
