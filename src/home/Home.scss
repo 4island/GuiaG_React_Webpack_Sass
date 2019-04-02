@@ -2,7 +2,6 @@
 .parallax_home {
   background-image: url('../../public/img/bible-2690295_960_720.jpg');
   height: 100%; 
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -118,12 +117,6 @@ span.input-group-addon {
   h3{
     font-size: 11px;
   }
-  .jumbotron p {
-    font-size: 15px;
-    .wtsp-link{
-      font-size: 11px;
-    }
-  }
 
 }
 
@@ -144,16 +137,6 @@ span.input-group-addon {
   .jumbo-categoria{ 
     margin-top: -8% !important;
     padding-top: 8px;
-  }
-
-  .jumbo-resultado{
-    margin-top: -8% !important; 
-    padding: 10px; 
-    height: 130px;
-  }
-
-  .jumbotron p {
-    font-size: 11px;
   }
 
   .fa-7x {
