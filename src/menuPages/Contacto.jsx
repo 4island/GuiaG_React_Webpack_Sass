@@ -13,7 +13,7 @@ export default class Contacto extends Component {
               <p>
               Hacé clic en el siguiente boton de whatsapp y comunicate con nosotros ->
               </p>
-								<a class="wtsp-link" href="https://api.whatsapp.com/send?phone=5491157973380&text=Hola%2C%20quiero%20saber%20mas">
+								<a class="wtsp-link-contacto" href="https://api.whatsapp.com/send?phone=5491157973380&text=Hola%2C%20quiero%20saber%20mas">
 									<i class="fab fa-whatsapp fa-7x"></i><br/><br/>
 								</a>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tel. 011-5797-3380<br/>
