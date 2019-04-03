@@ -3,12 +3,12 @@
 // @import "partials/variables";
 
 nav.navbar, .navbar-default {
-    background-color: $colorPrimario ;
-    width: 100%;
-    min-height: 85px;
-    z-index: 99;
-    margin-bottom: 0px !important; 
-  }
+  background-color: $colorPrimario ;
+  width: 100%;
+  min-height: 20px;
+  z-index: 99;
+  margin-bottom: 0px !important; 
+}
   
   .navbar-collapse {
     padding-right: 15px;

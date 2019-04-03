@@ -6,8 +6,8 @@ import './CustomNavbar.scss';
 export default class CustomNavbar extends Component {
   render() {
     return (
-      <Navbar default collapseOnSelect>
-        <Navbar.Header>
+      <Navbar default className="CustomHeader" collapseOnSelect>
+        <Navbar.Header >
         
           <Navbar.Brand >
               <Link to="/" >

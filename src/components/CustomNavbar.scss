@@ -97,18 +97,24 @@ h4{
 
 @media only screen and (max-width: 768px) {
   .marca{
-    width: 90px;
-    height: 50px;
+    width: 85px;
+    height: 42px;
     background-size: 80px 45px;
     background-position-x: 60%;
-    // background-position-y: 40%;
-    margin-top: -13px;
-    padding-top: 5px;
+    background-position-y: 200%;
+    margin-top: -5px;
+    padding-top: 0px;
   }
   .logo-texto{
     margin-left: -115px;
-    margin-top: 20px;     
+    margin-top: 20px;  
+    display: none;   
   }
+  .GG{
+    padding-top: 1px;
+    padding-left: 2.5px;
+  }
+
   h2{
     font-size: 11px !important;
   }
@@ -117,16 +123,20 @@ h4{
   }
   .publicidad-navBar{
     margin-left: 0% !important;
-  }
-  .Capa_1{
-    width: 18px;
+    margin-top: 0px;
   }
   .slogan{
     display: none;
   }
   .navbar-toggle {
-    margin-bottom: 30px;
+    margin-top: 10px;
   }
+  .CustomHeader {
+    min-height: 60px !important;
+    z-index: 99;
+    margin-bottom: 0px !important; 
+  }
+
 }
 
 @media only screen and (max-width: 320px) {
