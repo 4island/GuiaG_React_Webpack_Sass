@@ -8,6 +8,7 @@ export default class CustomNavbar extends Component {
     return (
       <Navbar default className="CustomHeader" collapseOnSelect>
         <Navbar.Header >
+        <meta name="Keywords" content="cistiano, cristiana, buscador, directorio, guia"/>
         
           <Navbar.Brand >
               <Link to="/" >
