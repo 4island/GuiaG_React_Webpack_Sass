@@ -1,8 +1,7 @@
 .jumbotron_about{
   background-color: rgba(255,255,255,0.9);
-  margin-top:3%;
   color:rgb(0, 0, 0);
-  
+  margin-top: 100px;
 }
 
 .show-grid {
@@ -42,9 +41,19 @@ p{
   
 @media only screen and (max-width: 768px) {
 
-  .jumbotron_about p {
-    font-size: 13px !important;
-    font-weight: 100;
+  .jumbotron_about {
+    margin-top: 70px;
+    p{
+        font-size: 13px !important;
+        font-weight: 100;
+    }
+  }
+
 }
 
+@media only screen and (max-width: 320px) {
+
+  .jumbotron_about{
+    margin-top:23%;
+  }
 }
