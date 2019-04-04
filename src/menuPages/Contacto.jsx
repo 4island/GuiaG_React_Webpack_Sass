@@ -19,7 +19,7 @@ export default class Contacto extends Component {
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tel. 011-5797-3380<br/>
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Guía Gospel<br/>
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Una Visión con Propósito"<br/><br/>
-            </p>
+            </p><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
           </Jumbotron>
         </Grid>
       </div>
