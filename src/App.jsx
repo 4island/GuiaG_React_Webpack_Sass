@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, hashHistory} from 'react-router-dom';
+import { BrowserRouter as Router, Route, HashRouter} from 'react-router-dom';
+
 
 import Navbar from './components/CustomNavbar';
 import Footer from './components/CustomFooter';
@@ -24,7 +25,7 @@ class App extends Component {
   render() {
     return (
       <Provider>
-        <Router history={hashHistory}>
+        <HashRouter>
           <div>
             <Navbar />
             <Route exact path="/" component={Home} />
@@ -37,7 +38,7 @@ class App extends Component {
             <Route path="/servicios" component={Servicios} />
             <Footer />
           </div>
-        </Router>
+        </HashRouter>
       </Provider>
     );
   }
