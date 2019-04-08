@@ -7,24 +7,27 @@ export const Resultado = props => {
 
     return (
         <Row className="show-grid text-left">
-            <Col xs={12} md={6}>
+            <Col xs={6} md={12}>
+                <p className="card-text">
+
+                    Categoria: {cliente.categoria}
+                    <strong>
+                        <br /> {cliente.name}
+                    </strong>
+                </p>
+            </Col>
+            <Col xs={6} md={12}>
                 <p className="card-text">
                     <strong>
-                        Categoria: {cliente.categoria} - {cliente.name} <br />
-
-                        Toca / haz click para acceder a mas info  ↓ 
-
-
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <ButtonToolbar>
                             <Button variant="outline-primary">
                                 <a className="wtsp-link" href={`https://api.whatsapp.com/send?phone=549${cliente.telefono}&text=Hola%2C%20quiero%20saber%20mas`}>
                                     <i className="fab fa-whatsapp fa-2x"></i>&nbsp;{cliente.telefono}
                                 </a>
-                            </Button> 
+                            </Button>
                             <Button variant="outline-primary">
                                 <a className="web-link" href={`https://${cliente.web}`}>
-                                    <i className="fas fa-link fa-2x"></i>&nbsp;{cliente.web}
+                                    <i className="fas fa-link fa-2x"></i>&nbsp;Web
                                 </a>
                             </Button>
                         </ButtonToolbar>
