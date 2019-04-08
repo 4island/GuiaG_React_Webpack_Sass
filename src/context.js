@@ -6,21 +6,21 @@ const customers_list = [
     {
         name: "Nadin Fernández",
         telefono: "1155806097",
-        categoria: "Profesores",
+        categoria: "Profesora de canto particular",
         web: 'clasesdecanto.negocio.site',
         id: '1'
     },
     {
-        name: "Pricila",
+        name: "Priscilla",
         telefono: "1175003414",
-        categoria: "Comercio",
+        categoria: "Comercio de regaleria cristiana",
         web: 'priscillaregaleriacristiana.com/',
         id: '2'
     },
     {
         name: "Alan Martin",
         telefono: "1167468781",
-        categoria: "I.T - Web",
+        categoria: " Desarrollo I.T - WebApps",
         web: 'www.pentity.com',
         id: '3'
     },

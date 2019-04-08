@@ -1,3 +1,9 @@
+.jumbotron p{
+  .wtsp-link{
+    font-size: 15px;
+  }
+}
+
 
 @media only screen and (max-width: 768px) {
 
@@ -20,9 +26,13 @@
     height: 130px;
   }
   .jumbotron p {
-    font-size: 8px;
+    font-size: 10px;
+    padding: 5px;
     .wtsp-link{
-      font-size: 8px;
+      font-size: 10px;
+    }
+    .web-link{
+      font-size: 10px;
     }
   }
 }

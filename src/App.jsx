@@ -10,6 +10,7 @@ import Home from './home/Home';
 import Quienes from './menuPages/Quienes';
 import Trabaja from './menuPages/Trabaja';
 import Contacto from './menuPages/Contacto';
+import Como from './menuPages/Como';
 
 import Profesional from './home/categorias/Profesional';
 import Servicios from './home/categorias/Servicios';
@@ -33,6 +34,7 @@ class App extends Component {
             <Route path="/quienessomos" component={Quienes} />
             <Route path="/trabaja" component={Trabaja} />
             <Route path="/contacto" component={Contacto} />
+            <Route path="/como" component={Como} />
 
             <Route path="/profesional" component={Profesional} />
             <Route path="/servicios" component={Servicios} />

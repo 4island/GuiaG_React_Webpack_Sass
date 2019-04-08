@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Navbar, Nav, NavItem, Label, DropdownButton, MenuItem} from 'react-bootstrap';
+import { Navbar, Nav, NavItem, Label} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './CustomNavbar.scss';
 
@@ -53,7 +53,7 @@ export default class CustomNavbar extends Component {
 
 
           <Navbar.Brand className="publicidad-navBar">
-              <h1><Label >Publicidad</Label></h1>
+              <h1><Label >Publicite aquí</Label></h1>
           </Navbar.Brand>
 
           <Navbar.Toggle/>
@@ -70,6 +70,9 @@ export default class CustomNavbar extends Component {
               </NavItem>
               <NavItem eventKey={2} componentClass={Link} href="/trabaja" to="/trabaja">
                 Trabaja con nosotros
+              </NavItem>
+              <NavItem eventKey={2} componentClass={Link} href="/como" to="/como">
+                Como Suscribirme
               </NavItem>
               <NavItem eventKey={2} componentClass={Link} href="/contacto" to="/contacto">
                 Contacto

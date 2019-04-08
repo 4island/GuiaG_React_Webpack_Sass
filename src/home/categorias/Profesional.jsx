@@ -74,7 +74,7 @@ export default class Profesional extends Component {
                                                     <Nav>
                                                         <NavItem eventKey={1} componentClass={Link} href="#" to="#"
                                                             onClick={() => {
-                                                                dispatch({ type: 'SEARCH_CUSTOMERS', payload: 'profesores' })
+                                                                dispatch({ type: 'SEARCH_CUSTOMERS', payload: 'profesor' })
                                                             }}>
                                                             <i className="fas fa-chalkboard-teacher fa-7x"></i>
                                                             <h3>Profesores</h3>
