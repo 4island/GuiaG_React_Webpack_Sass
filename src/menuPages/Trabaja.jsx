@@ -13,7 +13,6 @@ export default class Trabaja extends Component {
               Estamos en la búsqueda y selección de emprendedores en todo el país, con el propósito de sumar suscripciones a GUÍA GOSPEL.
               Si sos un hno/a de la Fé, mayor de 21 años y tenés una membresía contínua de al menos dos años, con deseos y/ó necesidad de sumar activos a tu economía.
               NO DUDES EN CONTACTARNOS.
-              La función ó el cargo que ocupes en tu ministerio no es ninguna barrera para trabajar junto a nosotros. Necesitamos personas que deseen ser bendición y a la vez ser bendecidas.
             </p>
             <p>
               La función ó el cargo que ocupes en tu ministerio no es ninguna barrera para trabajar junto a nosotros. Necesitamos personas que deseen ser bendición y a la vez ser bendecidas.
