@@ -14,7 +14,7 @@ export default class Home extends Component {
       <Consumer>
         {
           (value) => {
-            const { customers_list, showList } = value;
+            const { customers_list, showList, dispatch } = value;
             if (customers_list.length > 0 && showList) {
               return (
                 <div className="parallax_home">
@@ -59,20 +59,26 @@ export default class Home extends Component {
 
                         <Col xs={6} md={2}>
                           <Nav >
-                            <NavItem eventKey={1} componentClass={Link} href="#" to="#">
+                            <NavItem eventKey={1} componentClass={Link} href="#" to="#"
+                                onClick={() => {
+                                  dispatch({ type: 'SEARCH_CUSTOMERS', payload: 'comercio' })
+                                }}>
                               <i className="far fa-building fa-7x"></i>
+                              <h3>Empresarial</h3>
                             </NavItem>
                           </Nav>
-                          <h3>Empresarial</h3>
                         </Col>
 
                         <Col xs={6} md={2}>
                           <Nav >
-                            <NavItem eventKey={1} componentClass={Link} href="#" to="#">
+                            <NavItem eventKey={1} componentClass={Link} href="#" to="#"
+                                onClick={() => {
+                                  dispatch({ type: 'SEARCH_CUSTOMERS', payload: 'iglesia' })
+                                }}>
                               <i className="fas fa-church fa-7x"></i>
+                              <h3>Ministerial</h3>
                             </NavItem>
                           </Nav>
-                          <h3>Ministerial</h3>
                         </Col>
 
                         <Col xs={6} md={2}>

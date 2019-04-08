@@ -30,6 +30,20 @@ const customers_list = [
         categoria: "Peluqueria a domicilio",
         web: '',
         id: '4'
+    },
+    {
+        name: "Iglesia Cristiana de Ceres",
+        telefono: "1157973380",
+        categoria: "Perteneciente a la Iglesia Cuadrangular de Argentina. Av. Milano 124. Ceres. Santa Fe. Pastores: Rolando Aranda y Liliana Escalera.",
+        web: '',
+        id: '5'
+    },
+    {
+        name: "Iglesia Cristiana de Almagro",
+        telefono: "1157973380",
+        categoria: "Perteneciente a la Iglesia Cuadrangular de Argentina. Lavalle 3209  3.  CABA. Pastores: Rolando Aranda y Liliana Escalera.",
+        web: '',
+        id: '6'
     }
 ];
 
