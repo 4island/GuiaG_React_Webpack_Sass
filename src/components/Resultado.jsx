@@ -7,7 +7,7 @@ export const Resultado = props => {
 
     return (
         <Row className="show-grid text-left">
-            <Col xs={6} md={12}>
+            <Col xs={8} md={12}>
                 <p className="card-text">
                     <strong>
                     <em>{cliente.name}</em><br /> 
@@ -15,13 +15,13 @@ export const Resultado = props => {
                     </strong>
                 </p>
             </Col>
-            <Col xs={6} md={12}>
-                <p className="card-text">
+            <Col xs={4} md={12}>
+                <p className="card-contact">
                     <strong>
                         <ButtonToolbar>
                             <Button variant="outline-primary">
                                 <a className="wtsp-link" href={`https://api.whatsapp.com/send?phone=549${cliente.telefono}&text=Hola%2C%20quiero%20saber%20mas`}>
-                                    <i className="fab fa-whatsapp fa-2x"></i>&nbsp;{cliente.telefono}
+                                    <i className="fab fa-whatsapp fa-2x"></i>&nbsp;Whats
                                 </a>
                             </Button>
                             <Button variant="outline-primary">
