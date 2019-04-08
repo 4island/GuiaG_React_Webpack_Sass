@@ -9,10 +9,9 @@ export const Resultado = props => {
         <Row className="show-grid text-left">
             <Col xs={6} md={12}>
                 <p className="card-text">
-
-                    Categoria: {cliente.categoria}
                     <strong>
-                        <br /> {cliente.name}
+                    <em>{cliente.name}</em><br /> 
+                     Categoria: {cliente.categoria}                        
                     </strong>
                 </p>
             </Col>
