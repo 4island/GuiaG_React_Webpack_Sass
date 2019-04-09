@@ -39,7 +39,7 @@ export default class Home extends Component {
                     <Jumbotron className="jumbo-categoria">
                       <Row className="show-grid text-center">
 
-                        <Col xs={6} md={2}>
+                        <Col xs={4} md={2}>
                           <Nav >
                             <NavItem eventKey={1} componentClass={Link} href="/profesional" to="/profesional">
                               <i className="far fa-address-card fa-7x"></i>
@@ -48,7 +48,7 @@ export default class Home extends Component {
                           <h3>Profesionales</h3>
                         </Col>
 
-                        <Col xs={6} md={2}>
+                        <Col xs={4} md={2}>
                           <Nav >
                             <NavItem eventKey={1} componentClass={Link} href="/servicios" to="/servicios">
                               <i className="fas fa-users fa-7x"></i>
@@ -57,7 +57,7 @@ export default class Home extends Component {
                           <h3>Servicios</h3>
                         </Col>
 
-                        <Col xs={6} md={2}>
+                        <Col xs={4} md={2}>
                           <Nav >
                             <NavItem eventKey={1} componentClass={Link} href="#" to="#"
                                 onClick={() => {
@@ -69,7 +69,7 @@ export default class Home extends Component {
                           </Nav>
                         </Col>
 
-                        <Col xs={6} md={2}>
+                        <Col xs={4} md={2}>
                           <Nav >
                             <NavItem eventKey={1} componentClass={Link} href="#" to="#"
                                 onClick={() => {
@@ -81,7 +81,7 @@ export default class Home extends Component {
                           </Nav>
                         </Col>
 
-                        <Col xs={6} md={2}>
+                        <Col xs={4} md={2}>
                           <Nav >
                             <NavItem eventKey={1} componentClass={Link} href="#" to="#">
                               <i className="fas fa-globe-americas fa-7x"></i>
@@ -90,7 +90,7 @@ export default class Home extends Component {
                           <h3>ONG</h3>
                         </Col>
 
-                        <Col xs={6} md={2}>
+                        <Col xs={4} md={2}>
                           <Nav >
                             <NavItem eventKey={1} componentClass={Link} href="#" to="#">
                               <i className="fas fa-bullhorn fa-7x"></i>
