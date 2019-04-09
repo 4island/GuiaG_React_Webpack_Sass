@@ -45,7 +45,7 @@ export default class Home extends Component {
                               <i className="far fa-address-card fa-7x"></i>
                             </NavItem>
                           </Nav>
-                          <h3>Profesional</h3>
+                          <h3>Profesionales</h3>
                         </Col>
 
                         <Col xs={6} md={2}>
@@ -64,7 +64,7 @@ export default class Home extends Component {
                                   dispatch({ type: 'SEARCH_CUSTOMERS', payload: 'comercio' })
                                 }}>
                               <i className="far fa-building fa-7x"></i>
-                              <h3>Empresarial</h3>
+                              <h3>Comercios y Empresas</h3>
                             </NavItem>
                           </Nav>
                         </Col>
@@ -73,10 +73,10 @@ export default class Home extends Component {
                           <Nav >
                             <NavItem eventKey={1} componentClass={Link} href="#" to="#"
                                 onClick={() => {
-                                  dispatch({ type: 'SEARCH_CUSTOMERS', payload: 'iglesia' })
+                                  dispatch({ type: 'SEARCH_CUSTOMERS', payload: 'iglesias' })
                                 }}>
                               <i className="fas fa-church fa-7x"></i>
-                              <h3>Ministerial</h3>
+                              <h3>Iglesias y Ministerios</h3>
                             </NavItem>
                           </Nav>
                         </Col>

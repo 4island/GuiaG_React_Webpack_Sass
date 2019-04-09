@@ -48,7 +48,7 @@ export default class Profesional extends Component {
                                                                 dispatch({ type: 'SEARCH_CUSTOMERS', payload: 'web' })
                                                             }}>
                                                             <i className="fas fa-laptop fa-7x"></i>
-                                                            <h3>I.T / Web</h3>
+                                                            <h3>Diseño - Web</h3>
                                                         </NavItem>
                                                     </Nav>
                                                 </Col>

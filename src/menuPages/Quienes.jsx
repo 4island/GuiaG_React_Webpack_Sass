@@ -16,7 +16,7 @@ export default class Quienes extends Component {
                   Mi nombre es Rolando Aranda, y soy el creador de Guía Gospel.
                   Resido en la Ciudad Autónoma de Buenos Aires junto a mi esposa Liliana.
                   Ambos somos Pastores, pertenecientes al Ministerio Internacional del Evangelio Cuadrangular en Argentina.
-                  Somos fundadores de una obra en la ciudad de Ceres, Santa Fé, y su anexo en la localidad de Selva, Sgo del Estero.
+                  Somos fundadores de una obra en la ciudad de Ceres, Santa Fé.
                 </p>
                 <p>
                   Actualmente nuestra Misión, es colaborar con la extensión del Reino de nuestro Señor Jesucristo, en la Ciudad de Buenos Aires.
