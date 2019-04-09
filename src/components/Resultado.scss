@@ -22,7 +22,6 @@
       font-size: 15px;
     }
   }
-
 }
 
 
@@ -31,7 +30,7 @@
   .jumbo-resultado{
     margin-top: -8% !important; 
     padding: 5px; 
-    height: 130px;
+    min-height: 150px;
   }
   .jumbotron p {
     font-size: 10px;
@@ -41,8 +40,5 @@
     .web-link{
       font-size: 10px;
     }
-  }
-  .card-contact{
-    // margin-top: 15px !important;
   }
 }
