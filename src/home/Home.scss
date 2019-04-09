@@ -137,6 +137,9 @@ span.input-group-addon {
   .jumbo-categoria{ 
     margin-top: -8% !important;
     padding-top: 8px;
+    .col-xs-6 {
+      padding-top: -10px !important;
+    }
   }
 
   .fa-7x {
