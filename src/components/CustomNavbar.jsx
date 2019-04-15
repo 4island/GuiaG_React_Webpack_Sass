@@ -53,7 +53,7 @@ export default class CustomNavbar extends Component {
 
 
           <Navbar.Brand className="publicidad-navBar">
-              <h1><Label >Publicite aquí</Label></h1>
+              <h1><Label >133 x 50</Label></h1>
           </Navbar.Brand>
 
           <Navbar.Toggle/>

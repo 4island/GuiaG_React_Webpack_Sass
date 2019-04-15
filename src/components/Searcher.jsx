@@ -32,7 +32,7 @@ class Searcher extends Component {
                                     inline
                                     // onKeyPress ={this.findCustomers.bind(this, dispatch)}
                                     onSubmit ={this.findCustomers.bind(this, dispatch)}
-                                    >
+                                >
                                     <FormGroup bsSize="lg">
                                         <Row className="show-grid text-center">
 

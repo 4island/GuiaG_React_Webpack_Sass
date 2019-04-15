@@ -106,7 +106,7 @@ const customers_list = [
 
 
 const resultado = (filtro) => customers_list.filter(function (cliente) {
-    return cliente.categoria.toLowerCase().match(filtro); //if de varios parametros
+    return cliente.categoria.toLowerCase().match(filtro); 
 });
 
 
@@ -114,6 +114,8 @@ const reducer = (state, action) => {
     switch (action.type) {
         case 'SEARCH_CUSTOMERS':
             return { ...state, customers_list: resultado(action.payload), showList: true }
+        case 'CLEAR_CATEGORY':
+            return {...state, customers_list: customers_list, showList:false, backALevel: true }
         default:
             return state
     }
@@ -124,7 +126,8 @@ export class Provider extends Component {
     state = {
         customers_list: customers_list,
         dispatch: action => this.setState(state => reducer(state, action)),
-        showList: false
+        showList: false,
+        backALevel: false
     }
 
     render() {

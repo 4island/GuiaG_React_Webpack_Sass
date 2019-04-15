@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, HashRouter} from 'react-router-dom';
-
+import { Route, HashRouter } from 'react-router-dom';
 
 import Navbar from './components/CustomNavbar';
 import Footer from './components/CustomFooter';

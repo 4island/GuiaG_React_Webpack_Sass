@@ -10,7 +10,7 @@ export const Resultado = props => {
             <Col xs={12} md={12}>
                 <p className="card-text">
                     <strong>
-                        <em>{cliente.name}</em><br />
+                        <em>{cliente.name}</em><br/>
                         {cliente.descripcion}
                     </strong>
                 </p>

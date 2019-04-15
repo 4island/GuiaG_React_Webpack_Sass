@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { Jumbotron, Grid, Row, Col, NavItem, Nav } from 'react-bootstrap';
 import './categorias.scss'; //UPPER
 import Searcher from '../../components/Searcher';
-import { Volver } from '../../components/Volver';
+import  Volver  from '../../components/Volver';
 import { Resultado } from '../../components/Resultado';
 import { Consumer } from '../../context';
 
@@ -18,8 +18,8 @@ export default class Profesional extends Component {
                             return (
                                 <div className="parallax_home">
                                     <Grid>
-                                        <Searcher></Searcher>
-                                        <Volver></Volver>
+                                        <Searcher/>
+                                        <Volver/>
 
                                         {customers_list.map(item => (
                                             <Jumbotron className="jumbo-resultado">
@@ -34,9 +34,8 @@ export default class Profesional extends Component {
                             return (
                                 <div className="parallax_home">
                                     <Grid>
-                                        <Searcher></Searcher>
-
-                                        <Volver></Volver>
+                                        <Searcher/>
+                                        <Volver/>
 
                                         <Jumbotron className="jumbo-categoria">
                                             <Row className="show-grid text-center">

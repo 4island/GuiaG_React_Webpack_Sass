@@ -4,7 +4,7 @@ import { Jumbotron, Grid, Row, Col, NavItem, Nav } from 'react-bootstrap';
 
 import { Consumer } from '../context';
 import { Resultado } from '../components/Resultado';
-import { Volver } from '../components/Volver';
+import Volver from '../components/Volver';
 import Searcher from '../components/Searcher';
 import './Home.scss';
 
@@ -39,37 +39,7 @@ export default class Home extends Component {
                     <Jumbotron className="jumbo-categoria">
                       <Row className="show-grid text-center">
 
-                        <Col xs={4} md={2}>
-                          <Nav >
-                            <NavItem eventKey={1} componentClass={Link} href="/profesional" to="/profesional">
-                              <i className="far fa-address-card fa-7x"></i>
-                            </NavItem>
-                          </Nav>
-                          <h3>Profesionales</h3>
-                        </Col>
-
-                        <Col xs={4} md={2}>
-                          <Nav >
-                            <NavItem eventKey={1} componentClass={Link} href="/servicios" to="/servicios">
-                              <i className="fas fa-users fa-7x"></i>
-                            </NavItem>
-                          </Nav>
-                          <h3>Servicios</h3>
-                        </Col>
-
-                        <Col xs={4} md={2}>
-                          <Nav >
-                            <NavItem eventKey={1} componentClass={Link} href="#" to="#"
-                                onClick={() => {
-                                  dispatch({ type: 'SEARCH_CUSTOMERS', payload: 'comercio' })
-                                }}>
-                              <i className="far fa-building fa-7x"></i>
-                              <h3>Comercios y Empresas</h3>
-                            </NavItem>
-                          </Nav>
-                        </Col>
-
-                        <Col xs={4} md={2}>
+                      <Col xs={4} md={2}>
                           <Nav >
                             <NavItem eventKey={1} componentClass={Link} href="#" to="#"
                                 onClick={() => {
@@ -83,11 +53,41 @@ export default class Home extends Component {
 
                         <Col xs={4} md={2}>
                           <Nav >
+                            <NavItem eventKey={1} componentClass={Link} href="/profesional" to="/profesional">
+                              <i className="far fa-address-card fa-7x"></i>
+                            </NavItem>
+                          </Nav>
+                          <h3>Profesionales</h3>
+                        </Col>
+
+                        <Col xs={4} md={2}>
+                          <Nav >
+                            <NavItem eventKey={1} componentClass={Link} href="#" to="#"
+                                onClick={() => {
+                                  dispatch({ type: 'SEARCH_CUSTOMERS', payload: 'comercio' })
+                                }}>
+                              <i className="far fa-building fa-7x"></i>
+                              <h3>Comercios e Industrias</h3>
+                            </NavItem>
+                          </Nav>
+                        </Col>
+
+                        <Col xs={4} md={2}>
+                          <Nav >
+                            <NavItem eventKey={1} componentClass={Link} href="/servicios" to="/servicios">
+                              <i className="fas fa-users fa-7x"></i>
+                            </NavItem>
+                          </Nav>
+                          <h3>Empresas de Servicio</h3>
+                        </Col>
+
+                        <Col xs={4} md={2}>
+                          <Nav >
                             <NavItem eventKey={1} componentClass={Link} href="#" to="#">
                               <i className="fas fa-globe-americas fa-7x"></i>
                             </NavItem>
                           </Nav>
-                          <h3>ONG</h3>
+                          <h3>Eventos</h3>
                         </Col>
 
                         <Col xs={4} md={2}>
@@ -96,7 +96,7 @@ export default class Home extends Component {
                               <i className="fas fa-bullhorn fa-7x"></i>
                             </NavItem>
                           </Nav>
-                          <h3>Eventos</h3>
+                          <h3>Educación y ONG</h3>
                         </Col>
 
                       </Row>

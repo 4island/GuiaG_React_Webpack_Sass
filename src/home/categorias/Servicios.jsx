@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { Jumbotron, Grid, Row, Col, NavItem, Nav } from 'react-bootstrap';
 import './categorias.scss'; //UPPER
 import Searcher from '../../components/Searcher';
-import { Volver } from '../../components/Volver';
+import Volver from '../../components/Volver';
 import { Resultado } from '../../components/Resultado';
 import { Consumer } from '../../context';
 
