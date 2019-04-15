@@ -10,10 +10,13 @@ class Searcher extends Component {
                     value => {
                         const { dispatch, showList } = value;
                         {
-                            if (!showList) {
+                            if (showList) {
                                 return (
                                     <div className="text-right">
-                                        <Button className="botonesVolver" href="/">
+                                        <Button className="botonesVolver"
+                                            onClick={() => {
+                                                dispatch({ type: 'CLEAR_CATEGORY' })
+                                            }}>
                                             <i className="fas fa-arrow-left fa-3x"></i>
                                         </Button>
 
@@ -26,10 +29,7 @@ class Searcher extends Component {
                             else {
                                 return (
                                     <div className="text-right">
-                                        <Button className="botonesVolver"
-                                            onClick={() => {
-                                                dispatch({ type: 'CLEAR_CATEGORY' })
-                                            }}>
+                                        <Button className="botonesVolver" href="/">
                                             <i className="fas fa-arrow-left fa-3x"></i>
                                         </Button>
 
