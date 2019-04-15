@@ -26,7 +26,7 @@ const customers_list = [
         telefono: "1167468781",
         categoria: "Web",
         descripcion: " Desarrollo UI - WebApps - Diseño UX",
-        web: 'www.pentity.com',      
+        web: 'pentity.com',      
         mapa:'goo.gl/maps/MCtruH7LDR82',
         id: '3'
     },
@@ -59,7 +59,7 @@ const customers_list = [
     },
     {
         name: "Aquila",
-        telefono: "1157973380",
+        telefono: "1169472665",
         categoria: 'Comercio',
         descripcion: "Regalería Cristiana. Ventas x mayor y menor.Envíos a todo el país. Boedo 89 CABA.",
         web: 'priscillaregaleriacristiana.com/',
@@ -89,7 +89,7 @@ const customers_list = [
         telefono: "1154728882",
         categoria: 'Iglesias',
         descripcion: "El lugar de la Fé y los Milagros. Comedor Comunitario. Av Belgrano 3212 y Loria. CABA. Ptores: Raúl y Viviana Mamoykoff.",
-        web: 'www.puertademilagros.net',
+        web: 'puertademilagros.net',
         mapa: 'goo.gl/maps/xtT3GzP2EaG2',
         id: '10'
     },
