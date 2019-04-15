@@ -22,7 +22,7 @@ export const Resultado = props => {
                                     <i className="fab fa-whatsapp fa-2x"></i>&nbsp;Whats
                                 </Button>
 
-                                <Button variant="primary" className="web-link" href={`https://${cliente.web}`}>
+                                <Button variant="primary" className="web-link" href={`//www.${cliente.web}`}>
                                     <i className="fas fa-link fa-2x"></i>&nbsp;Web
                                 </Button>
                                 <Button variant="primary" className="web-link" href={`https://${cliente.mapa}`}>
