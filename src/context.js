@@ -115,7 +115,7 @@ const reducer = (state, action) => {
         case 'SEARCH_CUSTOMERS':
             return { ...state, customers_list: resultado(action.payload), showList: true }
         case 'CLEAR_CATEGORY':
-            return {...state, customers_list: customers_list, showList:false, backALevel: true }
+            return {...state, customers_list: customers_list, showList:false }
         default:
             return state
     }
@@ -126,8 +126,7 @@ export class Provider extends Component {
     state = {
         customers_list: customers_list,
         dispatch: action => this.setState(state => reducer(state, action)),
-        showList: false,
-        backALevel: false
+        showList: false
     }
 
     render() {

@@ -8,9 +8,9 @@ class Searcher extends Component {
             <Consumer>
                 {
                     value => {
-                        const { dispatch, showList, backALevel } = value;
+                        const { dispatch, showList } = value;
                         {
-                            if (!showList && backALevel) {
+                            if (!showList) {
                                 return (
                                     <div className="text-right">
                                         <Button className="botonesVolver" href="/">
